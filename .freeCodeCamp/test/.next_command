@@ -333,3 +333,7 @@ git remote
 git remote -v
 git remote set-url origin https://github.com/chihoko12/learn-salon-appointment-scheduler
 git remote -v
+clear
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+psql -U postgres < salon.sql
+clear
