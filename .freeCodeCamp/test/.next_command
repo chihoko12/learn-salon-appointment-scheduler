@@ -329,3 +329,7 @@ clear
 ./salon.sh
 clear
 ./salon.sh
+git remote
+git remote -v
+git remote set-url origin https://github.com/chihoko12/learn-salon-appointment-scheduler
+git remote -v
